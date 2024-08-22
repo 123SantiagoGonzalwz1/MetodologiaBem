@@ -79,9 +79,9 @@ main {
 }
 
 /* Línea de arcoiris */
-.content__text hr {
+hr {
     width: 6.25em;
-    height: 2px;
+    height: 3px;
     margin: 1.25em auto;
     border-style: none;
     background: -webkit-linear-gradient(left, red, blue, #82B2EE);
@@ -102,4 +102,54 @@ main {
     border: 1px solid #ddd;
     border-radius: 10px;
     margin: 2.5em auto;
+    cursor: pointer;
+}
+
+
+/* Services */
+.services {
+    width: 100%;
+    text-align: center;
+}
+
+.services h1 {
+    font-weight: 100;
+}
+
+.services__details {
+    width: 100%;
+}
+
+.services__detail {
+    width: 20em;
+    margin: auto;
+}
+
+.icon__detail {
+    width: 12.5em;
+    height: 12.5em;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    display: flex;
+    margin: 2.5em auto;
+}
+
+.icon__detail span {
+    font-size: 5em;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    padding: 46px;
+    margin: auto;
+}
+
+.services__detail h4 {
+    font-weight: 100;
+    font-size: 1.2em;
+    margin-bottom: 1.25em;
+}
+
+.services__detail p {
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    color: #877D7D;
 }
