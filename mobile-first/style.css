@@ -153,3 +153,71 @@ hr {
     letter-spacing: 1px;
     color: #877D7D;
 }
+
+/* Palette */
+.palette {
+    width: 100%;
+    text-align: center;
+}
+
+.palette h1 {
+    font-weight: 100;
+}
+
+.palette p {
+    letter-spacing: 1px;
+    color: #877D7D;
+}
+
+.palette__statistics {
+    width: 100%;
+    margin-top: 2.5em;
+}
+
+.palette__item {
+    width: 18em;
+    margin: auto;
+    padding: 2.5em;
+    color: #fff;
+}
+
+.palette__item span {
+    font-size: 5em;
+
+}
+
+.item1 {
+    background: #EFA8BE;
+    border-radius: 10px 10px 0 0;
+}
+
+.item2 {
+    background: #C79CC8;
+}
+
+.item3 {
+    background: #A89CC8;
+}
+
+.item4 {
+    background: #9BB2E1;
+}
+
+.item5 {
+    background: #8CC9F0;
+    border-radius: 0 0 10px 10px;
+}
+
+.palette__item h4 {
+    font-weight: 100;
+    margin-top: 1.25em;
+    font-size: 1.2em;
+}
+
+.palette__item p {
+    color: #fff;
+}
+
+.palette__paragraph {
+    text-align: justify;
+}
