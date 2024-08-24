@@ -15,8 +15,10 @@ body {
 /* Contenido de la cabecera */
 .content-header {
     width: 100%;
+    max-width: 400px;
     margin-top: 6em;
     text-align: center;
+    margin: auto;
 }
 
 .content__logo {
@@ -50,7 +52,12 @@ body {
 
 /* Content main */
 main {
+    max-width: 1000px;
     background: #fff;
+    padding: 2em;
+    margin: auto;
+    margin-top: 2.5em;
+    border-radius: 8px;
 }
 
 .content-main {
@@ -121,7 +128,8 @@ hr {
 }
 
 .services__detail {
-    width: 20em;
+    width: 100%;
+    max-width: 400px;
     margin: auto;
 }
 
@@ -172,10 +180,12 @@ hr {
 .palette__statistics {
     width: 100%;
     margin-top: 2.5em;
+    margin-bottom: 2.5em;
 }
 
 .palette__item {
-    width: 18em;
+    width: 100%;
+    max-width: 17em;
     margin: auto;
     padding: 2.5em;
     color: #fff;
@@ -221,3 +231,101 @@ hr {
 .palette__paragraph {
     text-align: justify;
 }
+
+/* End */
+.end {
+    width: 100%;
+    text-align: center;
+}
+
+.end h1 {
+    font-weight: 100;
+}
+
+.end p {
+    margin-top: 1.25em;
+    font-size: 1.25em;
+    color: #877D7D;
+}
+
+.end__button {
+    margin: 2.5em;
+    display: flex;
+    justify-content: center;
+}
+.end__button button {
+    width: 12.5em;
+    height: 3.7em;
+    background: #8CC9F0;
+    border-style: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 1em;
+    margin: auto;
+    cursor: pointer;
+    transform: opacity 300ms;
+}
+
+.end__button button:hover {
+    opacity: .8;
+}
+
+.end__button--read {
+    width: 12.5em;
+    height: 3.7em;
+    margin: auto;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* Media queris*/
+
+@media screen and (min-width: 800px) {
+
+    /* Content Main */
+    .content-main {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .content__img {
+        width: 70%;
+    }
+
+    .content__img img {
+        float: right;
+        width: 18em;
+        height: 18em;
+    }
+
+    /* Services */
+    .services__details {
+        display: flex;
+    }
+
+    /* Estadisticas */
+    .palette__statistics {
+        display: flex;
+    }
+
+    .palette__statistics span {
+        font-size: 2.5em;
+    }
+
+    .item1 {
+        border-radius: 10px 0 0 10px;
+    }
+
+    .item5 {
+        border-radius: 0 10px 10px 0;
+    }
+
+    /* Final */
+    .end {
+        width: 100%;
+        max-width: 600px;
+        margin: auto;
+    }
+}
+
